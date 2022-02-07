@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32104.313
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyCLR.SignalR.Client", "TinyCLR.SignalR.Client\TinyCLR.SignalR.Client.csproj", "{F2D40C12-C95F-4B8A-B99E-BA4E0EC27B2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Net.WebSockets", "System.Net.WebSockets\System.Net.WebSockets.csproj", "{8DB437FC-F8A9-4DE8-A84C-C57F7140AEE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyCLR.Json", "TinyCLR.Json\TinyCLR.Json.csproj", "{027EC255-C693-48E1-BB9E-AA885B8CA93C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{0B556A66-5477-4B60-AE3A-F992F90BF038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSignalR", "DemoSignalR\DemoSignalR.csproj", "{D657E264-015B-4C48-96B8-BE378CA26886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSignalR", "WebSignalR\WebSignalR.csproj", "{BD9E30E3-DC44-47D7-A1FA-D6FFC2DE18C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2D40C12-C95F-4B8A-B99E-BA4E0EC27B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D40C12-C95F-4B8A-B99E-BA4E0EC27B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D40C12-C95F-4B8A-B99E-BA4E0EC27B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D40C12-C95F-4B8A-B99E-BA4E0EC27B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB437FC-F8A9-4DE8-A84C-C57F7140AEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB437FC-F8A9-4DE8-A84C-C57F7140AEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB437FC-F8A9-4DE8-A84C-C57F7140AEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB437FC-F8A9-4DE8-A84C-C57F7140AEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027EC255-C693-48E1-BB9E-AA885B8CA93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027EC255-C693-48E1-BB9E-AA885B8CA93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027EC255-C693-48E1-BB9E-AA885B8CA93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027EC255-C693-48E1-BB9E-AA885B8CA93C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D657E264-015B-4C48-96B8-BE378CA26886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D657E264-015B-4C48-96B8-BE378CA26886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D657E264-015B-4C48-96B8-BE378CA26886}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D657E264-015B-4C48-96B8-BE378CA26886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D657E264-015B-4C48-96B8-BE378CA26886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D657E264-015B-4C48-96B8-BE378CA26886}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BD9E30E3-DC44-47D7-A1FA-D6FFC2DE18C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9E30E3-DC44-47D7-A1FA-D6FFC2DE18C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9E30E3-DC44-47D7-A1FA-D6FFC2DE18C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9E30E3-DC44-47D7-A1FA-D6FFC2DE18C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D657E264-015B-4C48-96B8-BE378CA26886} = {0B556A66-5477-4B60-AE3A-F992F90BF038}
+		{BD9E30E3-DC44-47D7-A1FA-D6FFC2DE18C6} = {0B556A66-5477-4B60-AE3A-F992F90BF038}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {733C3FE9-BCC3-476B-A97D-A78889378A16}
+	EndGlobalSection
+EndGlobal
