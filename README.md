@@ -57,7 +57,7 @@ static void StartSignalR()
             Debug.WriteLine($"closed received with message: {message.Message}");
         }
 ```
-
+Note: Ported from [NanoFramework SignalR Client](https://github.com/nanoframework/nanoFramework.SignalR.Client)
 
 Enjoy and Cheers :D.
 
